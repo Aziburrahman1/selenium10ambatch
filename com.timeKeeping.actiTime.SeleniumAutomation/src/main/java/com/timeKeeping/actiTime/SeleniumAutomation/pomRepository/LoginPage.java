@@ -14,6 +14,7 @@ public class LoginPage {
 		this.driver=driver;
 	}
 	
+	
     //We are identifying all the elements
 	@FindBy(id="username")
 	private WebElement usernameTextField;
