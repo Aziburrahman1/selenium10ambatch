@@ -15,6 +15,8 @@ public class TaskPage {
 		this.driver=driver;
 	}
 	
+	
+	
 	//We are identifying all the elements
 	@FindBy(xpath= "//div[text()='Add New']")
 	private WebElement addNewButton;
