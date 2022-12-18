@@ -1,41 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-15T00:41:07 IST" name="Default suite" finished-at="2022-09-15T00:41:54 IST" duration-ms="46353">
+  <suite started-at="2022-12-14T13:06:02 IST" name="Default suite" finished-at="2022-12-14T13:06:02 IST" duration-ms="125">
     <groups>
+      <group name="smokeTesting">
+        <method signature="ToPerformGroupExecution.login()[pri:0, instance:com.timeKeeping.actiTime.SeleniumAutomation.basicTestCase.ToPerformGroupExecution@4de4b452]" name="login" class="com.timeKeeping.actiTime.SeleniumAutomation.basicTestCase.ToPerformGroupExecution"/>
+        <method signature="ToPerformGroupExecution.logout()[pri:0, instance:com.timeKeeping.actiTime.SeleniumAutomation.basicTestCase.ToPerformGroupExecution@4de4b452]" name="logout" class="com.timeKeeping.actiTime.SeleniumAutomation.basicTestCase.ToPerformGroupExecution"/>
+      </group> <!-- smokeTesting -->
+      <group name="regressionTesting">
+        <method signature="ToPerformGroupExecution.addToCart()[pri:0, instance:com.timeKeeping.actiTime.SeleniumAutomation.basicTestCase.ToPerformGroupExecution@4de4b452]" name="addToCart" class="com.timeKeeping.actiTime.SeleniumAutomation.basicTestCase.ToPerformGroupExecution"/>
+        <method signature="ToPerformGroupExecution.payment()[pri:0, instance:com.timeKeeping.actiTime.SeleniumAutomation.basicTestCase.ToPerformGroupExecution@4de4b452]" name="payment" class="com.timeKeeping.actiTime.SeleniumAutomation.basicTestCase.ToPerformGroupExecution"/>
+        <method signature="ToPerformGroupExecution.select()[pri:0, instance:com.timeKeeping.actiTime.SeleniumAutomation.basicTestCase.ToPerformGroupExecution@4de4b452]" name="select" class="com.timeKeeping.actiTime.SeleniumAutomation.basicTestCase.ToPerformGroupExecution"/>
+      </group> <!-- regressionTesting -->
     </groups>
-    <test started-at="2022-09-15T00:41:07 IST" name="Default test" finished-at="2022-09-15T00:41:54 IST" duration-ms="46353">
-      <class name="com.timeKeeping.actiTime.SeleniumAutomation.TaskTest.CreateCustomerInTaskTest">
-        <test-method is-config="true" signature="bsConfig()[pri:0, instance:com.timeKeeping.actiTime.SeleniumAutomation.TaskTest.CreateCustomerInTaskTest@741a8937]" started-at="2022-09-15T00:41:07 IST" name="bsConfig" finished-at="2022-09-15T00:41:07 IST" duration-ms="12" status="PASS">
+    <test started-at="2022-12-14T13:06:02 IST" name="Default test" finished-at="2022-12-14T13:06:02 IST" duration-ms="125">
+      <class name="com.timeKeeping.actiTime.SeleniumAutomation.basicTestCase.ToPerformGroupExecution">
+        <test-method signature="addToCart()[pri:0, instance:com.timeKeeping.actiTime.SeleniumAutomation.basicTestCase.ToPerformGroupExecution@4de4b452]" started-at="2022-12-14T13:06:02 IST" name="addToCart" finished-at="2022-12-14T13:06:02 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bsConfig -->
-        <test-method is-config="true" signature="bcConfig()[pri:0, instance:com.timeKeeping.actiTime.SeleniumAutomation.TaskTest.CreateCustomerInTaskTest@741a8937]" started-at="2022-09-15T00:41:07 IST" name="bcConfig" finished-at="2022-09-15T00:41:36 IST" duration-ms="28844" status="PASS">
+        </test-method> <!-- addToCart -->
+        <test-method signature="login()[pri:0, instance:com.timeKeeping.actiTime.SeleniumAutomation.basicTestCase.ToPerformGroupExecution@4de4b452]" started-at="2022-12-14T13:06:02 IST" name="login" finished-at="2022-12-14T13:06:02 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bcConfig -->
-        <test-method is-config="true" signature="bmConfig()[pri:0, instance:com.timeKeeping.actiTime.SeleniumAutomation.TaskTest.CreateCustomerInTaskTest@741a8937]" started-at="2022-09-15T00:41:36 IST" name="bmConfig" finished-at="2022-09-15T00:41:37 IST" duration-ms="362" status="PASS">
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:0, instance:com.timeKeeping.actiTime.SeleniumAutomation.basicTestCase.ToPerformGroupExecution@4de4b452]" started-at="2022-12-14T13:06:02 IST" name="logout" finished-at="2022-12-14T13:06:02 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bmConfig -->
-        <test-method signature="createCustomerTest()[pri:0, instance:com.timeKeeping.actiTime.SeleniumAutomation.TaskTest.CreateCustomerInTaskTest@741a8937]" started-at="2022-09-15T00:41:37 IST" name="createCustomerTest" finished-at="2022-09-15T00:41:50 IST" duration-ms="13399" status="PASS">
+        </test-method> <!-- logout -->
+        <test-method signature="payment()[pri:0, instance:com.timeKeeping.actiTime.SeleniumAutomation.basicTestCase.ToPerformGroupExecution@4de4b452]" started-at="2022-12-14T13:06:02 IST" name="payment" finished-at="2022-12-14T13:06:02 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createCustomerTest -->
-        <test-method is-config="true" signature="amConfig()[pri:0, instance:com.timeKeeping.actiTime.SeleniumAutomation.TaskTest.CreateCustomerInTaskTest@741a8937]" started-at="2022-09-15T00:41:50 IST" name="amConfig" finished-at="2022-09-15T00:41:53 IST" duration-ms="2775" status="PASS">
+        </test-method> <!-- payment -->
+        <test-method signature="select()[pri:0, instance:com.timeKeeping.actiTime.SeleniumAutomation.basicTestCase.ToPerformGroupExecution@4de4b452]" started-at="2022-12-14T13:06:02 IST" name="select" finished-at="2022-12-14T13:06:02 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- amConfig -->
-        <test-method is-config="true" signature="acConfig()[pri:0, instance:com.timeKeeping.actiTime.SeleniumAutomation.TaskTest.CreateCustomerInTaskTest@741a8937]" started-at="2022-09-15T00:41:53 IST" name="acConfig" finished-at="2022-09-15T00:41:54 IST" duration-ms="908" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- acConfig -->
-        <test-method is-config="true" signature="asConfig()[pri:0, instance:com.timeKeeping.actiTime.SeleniumAutomation.TaskTest.CreateCustomerInTaskTest@741a8937]" started-at="2022-09-15T00:41:54 IST" name="asConfig" finished-at="2022-09-15T00:41:54 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- asConfig -->
-      </class> <!-- com.timeKeeping.actiTime.SeleniumAutomation.TaskTest.CreateCustomerInTaskTest -->
+        </test-method> <!-- select -->
+      </class> <!-- com.timeKeeping.actiTime.SeleniumAutomation.basicTestCase.ToPerformGroupExecution -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
